@@ -14,7 +14,12 @@ Start with the [getting started guide](getting-started.md). For a reproducible p
 | Voice control is paused | Use Resume voice control in the tray menu. Manual recording controls remain available while paused. |
 | Clips have missing audio | Check OBS audio sources, mixer, recording tracks, and output device. TalkNClip does not configure or mix recording audio. |
 | License activation fails | Check your connection and the build's activation instructions. Record the error message without sharing the license key. |
+| Device limit reached | Deactivate another installation in **Settings → License → Deactivate this computer** before activating this computer. A license supports up to two activated devices. |
+| License verification required | Connect to the internet and try validation again in **Settings → License**. |
+| I want to release an activation slot | Use **Settings → License → Deactivate this computer** while online and wait for confirmation. Uninstalling or deleting local data alone does not release the slot. |
 | I started TalkNClip but can't see it | Check the Windows notification area and hidden tray icons. TalkNClip runs in the tray; starting a second instance does not open another controller. |
+
+See the [licensing guide](licensing.md) for activation, moving to another computer, and the limited offline grace period.
 
 ## Report a bug
 

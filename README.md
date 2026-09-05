@@ -48,7 +48,21 @@ Requirements:
 
 Instant clips require the OBS Replay Buffer to be running.
 
-Follow the [getting started guide](docs/getting-started.md) for setup details and to test your first command.
+Follow the [getting started guide](assets/docs/getting-started.md) for setup details and to test your first command.
+
+## Licensing
+
+TalkNClip's planned license provides continued use of its recording and instant-clip controls:
+
+- One-time purchase
+- Up to 2 activated devices
+- Internet connection required for initial activation
+- Limited offline use after successful validation
+- License activation, validation, and deactivation handled through Lemon Squeezy
+
+Public purchase options will be added when TalkNClip is released.
+
+Read more in [TalkNClip licensing](assets/docs/licensing.md).
 
 ## Screenshots
 
@@ -72,14 +86,14 @@ Follow the [getting started guide](docs/getting-started.md) for setup details an
 
 Speech recognition runs locally on your selected microphone. TalkNClip does not upload microphone audio or use cloud speech recognition. Model downloads and license activation or validation can require an internet connection.
 
-Read [privacy and local data](docs/privacy.md) for details about network access, logs, and support packages.
+Read [privacy and local data](assets/docs/privacy.md) for details about network access, logs, and support packages.
 
 ## Help and feedback
 
-See the [support guide](docs/support.md) for troubleshooting and how to report a problem through this repository's Issues tab.
+See the [support guide](assets/docs/support.md) for troubleshooting and how to report a problem through this repository's Issues tab.
 
 This repository hosts the public documentation, screenshots, and issue templates for TalkNClip. Application source code is maintained separately.
 
-See [third-party notices](docs/third-party-notices.md) for component acknowledgments and the status of distribution notices.
+See [third-party notices](assets/docs/third-party-notices.md) for component acknowledgments and the status of distribution notices.
 
 Created by Fabio Carvalho.

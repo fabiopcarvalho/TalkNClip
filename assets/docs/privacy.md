@@ -20,6 +20,12 @@ OBS is responsible for recordings and clips, including their audio, storage loca
 
 The application has no telemetry client or automatic support upload. Local speech recognition does not imply that all application features work without internet access: initial license activation requires a connection, and licensed builds perform periodic validation with a limited offline grace period.
 
+## Licensing privacy
+
+Licensing communication is limited to the information needed for activation, validation, and deactivation, as described above. TalkNClip does not require your name or email address for normal local license validation. Payment and card details are not entered or stored inside the application.
+
+For activation, device limits, and offline use, see [TalkNClip licensing](licensing.md).
+
 ## Settings and license data
 
 Application data is stored under `%LOCALAPPDATA%\VoiceObsController`. This folder keeps the application's original technical name for compatibility.
