@@ -12,25 +12,43 @@
   Voice-controlled instant replay and recording for OBS Studio on Windows.
 </p>
 
-TalkNClip lets you save an instant clip, start recording, and stop recording with your voice. It runs in the Windows notification area and sends your configured commands to OBS Studio.
+Offline voice recognition. No microphone audio is uploaded.
 
-## What you can do
+## What is TalkNClip?
+
+TalkNClip lets you save an instant clip, start recording, and stop recording with your voice. It runs quietly in the Windows notification area and controls OBS Studio using your configured voice commands.
+
+OBS handles video recording, audio mixing, the Replay Buffer, and output files. Configure your scenes and audio sources in OBS as usual.
+
+## Features
 
 - Save the last moments captured by the OBS Replay Buffer.
 - Start and stop OBS recordings with custom voice phrases.
-- Recognize commands locally in Portuguese (Brazil) or English (United States).
+- Recognize commands offline in Portuguese (Brazil) and English (United States).
 - Test your phrases before using them to control OBS.
 - Check OBS, microphone, recording, and replay status from the tray.
-- Pause voice control while keeping manual recording and clip controls available.
+- Pause and resume voice control while keeping manual recording and clip controls available.
 - Choose a light or dark settings window.
 
-OBS handles recording, audio mixing, replay duration, and output files. Configure your scenes and audio sources in OBS as usual.
+## How it works
+
+1. Run TalkNClip in the system tray.
+2. Choose your microphone and voice commands.
+3. Connect TalkNClip to OBS Studio.
+4. Say your configured phrase.
+5. TalkNClip asks OBS Studio to save the clip or control recording.
 
 ## Get started
 
-You need a Windows x64 PC, a microphone, OBS Studio with WebSocket support enabled, and a speech model for your selected language. Saving instant clips also requires the OBS Replay Buffer to be running.
+Requirements:
 
-Follow the [getting started guide](docs/getting-started.md) to connect OBS and test your first command. Installation and licensing requirements depend on the build you receive; follow the instructions supplied with that package.
+- Windows x64
+- Microphone
+- OBS Studio 28 or later
+
+Instant clips require the OBS Replay Buffer to be running.
+
+Follow the [getting started guide](docs/getting-started.md) for setup details and to test your first command.
 
 ## Screenshots
 

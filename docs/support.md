@@ -14,7 +14,7 @@ Start with the [getting started guide](getting-started.md). For a reproducible p
 | Voice control is paused | Use Resume voice control in the tray menu. Manual recording controls remain available while paused. |
 | Clips have missing audio | Check OBS audio sources, mixer, recording tracks, and output device. TalkNClip does not configure or mix recording audio. |
 | License activation fails | Check your connection and the build's activation instructions. Record the error message without sharing the license key. |
-| The app appears to be missing | Check the Windows notification area and hidden icons. TalkNClip runs in the tray; starting a second instance does not open another controller. |
+| I started TalkNClip but can't see it | Check the Windows notification area and hidden tray icons. TalkNClip runs in the tray; starting a second instance does not open another controller. |
 
 ## Report a bug
 

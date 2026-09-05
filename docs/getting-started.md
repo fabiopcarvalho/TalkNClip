@@ -9,7 +9,7 @@ Have the following ready:
 - A TalkNClip package and its accompanying installation instructions.
 - Internet access to download your speech model and, for builds that require a license, complete initial activation.
 
-Keep the application package intact. If your package requires the .NET Desktop Runtime, install the version specified in its instructions. Portable packages may still use the technical executable name `VoiceObsController.exe`.
+Follow the installation and licensing instructions supplied with your build, and keep the application package intact. If your package requires the .NET Desktop Runtime, install the version specified in those instructions. The current portable Beta uses the executable name `VoiceObsController.exe`.
 
 ## 2. Connect OBS Studio
 
@@ -26,7 +26,7 @@ TalkNClip waits for OBS when it is closed and attempts to reconnect when it beco
 
 Configure your scenes, recording output folder, video settings, and audio sources in OBS. Make a short recording in OBS to confirm that the intended picture and audio are present.
 
-For instant clips, enable **Replay Buffer** in OBS output settings, choose the amount of history to keep, and start the Replay Buffer. TalkNClip must show replay as ready before it can save a clip.
+For instant clips, enable **Replay Buffer** in OBS output settings, choose how many seconds to keep, and start the Replay Buffer. TalkNClip must show replay as ready before it can save a clip.
 
 TalkNClip uses the audio mix configured in OBS. Its microphone selection is for recognizing voice commands; it does not add that microphone to your recording. A configured audio source does not guarantee that it currently has an audible signal.
 
