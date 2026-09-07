@@ -37,6 +37,8 @@ When using the support-package feature, review the preview and the resulting loc
 
 ## Sensitive reports
 
-Do not post license keys, passwords, payment details, or security exploit details in a public issue. For license or purchase-specific help, use the private contact channel supplied with your purchase or beta invitation. For a security issue, use private vulnerability reporting if this repository offers it, or an existing private maintainer contact.
+For license, purchase, or account-specific assistance, contact [talknclip.support@gmail.com](mailto:talknclip.support@gmail.com). Support requests in English or Portuguese are welcome.
+
+Do not post license keys, OBS passwords, payment details, private recordings, or security exploit details in a public issue. For a security issue, use private vulnerability reporting if this repository offers it, or contact the support email above privately.
 
 Read [privacy and local data](privacy.md) for details about stored information and network access.
