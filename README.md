@@ -52,15 +52,13 @@ Follow the [getting started guide](assets/docs/getting-started.md) for setup det
 
 ## Licensing
 
-TalkNClip's planned license provides continued use of its recording and instant-clip controls:
+TalkNClip is sold as a one-time purchase with no subscription. It includes a lifetime license for the purchased version and supports up to two device activations.
 
-- One-time purchase
-- Up to 2 activated devices
-- Internet connection required for initial activation
-- Limited offline use after successful validation
-- License activation, validation, and deactivation handled through Lemon Squeezy
+Purchases and license management are handled through Freemius. Internet access is required for initial activation and periodic license validation. Enter your key in **Settings → License**; **Deactivate this computer** releases an activation after confirmation.
 
-Public purchase options will be added when TalkNClip is released.
+Your microphone audio is not sent to Freemius. Voice recognition runs locally after the selected voice model is installed, separately from licensing communication.
+
+Do not publish or share your license key. For purchase, license, or account support, contact [talknclip.support@gmail.com](mailto:talknclip.support@gmail.com).
 
 Read more in [TalkNClip licensing](assets/docs/licensing.md).
 

@@ -2,17 +2,17 @@
 
 ## License model
 
-The planned TalkNClip license is a one-time purchase for continued use of the product, with up to two activated devices. It is not a recurring subscription. Coverage of future major versions has not yet been announced.
+TalkNClip uses Freemius for purchases and license management. A one-time purchase includes a lifetime license for the purchased version, with no subscription and up to two device activations. This does not promise free upgrades to every future major version.
 
 ## Activation
 
-An internet connection is required for initial activation.
+An internet connection is required for initial activation and periodic license validation. If you already have a key:
 
 1. Open **Settings → License**.
-2. Enter your license key.
+2. Paste your key into **License key**.
 3. Select **Activate**.
 
-TalkNClip activates that installation. A restart should not normally be required.
+TalkNClip activates and validates the license before enabling licensed actions. A restart should not normally be required. Do not publish or share your license key.
 
 ## Device limit
 
@@ -28,9 +28,9 @@ You can then use the same license key to activate TalkNClip on another computer,
 
 Initial activation requires internet access, and TalkNClip periodically connects to validate the license. After successful validation, locally cached license information allows continued use for a limited offline grace period.
 
-A network failure does not immediately invalidate a recently validated license. If license verification is required after the offline grace period, connect to the internet and try validation again in **Settings → License**.
+A network failure does not immediately invalidate a recently validated license. If license verification is required after the offline grace period, connect to the internet and select **Settings → License → Check license**.
 
-Speech recognition remains local, including when TalkNClip connects to the license service.
+Voice recognition remains local/offline after the selected voice model is installed. Freemius licensing communication is separate from microphone capture and voice recognition; microphone audio is not sent to Freemius.
 
 ## Deactivation
 
@@ -40,15 +40,23 @@ Uninstalling TalkNClip or deleting local application data alone does not release
 
 ## License provider
 
-TalkNClip currently uses Lemon Squeezy for license activation, validation, and deactivation. Licensing communication is limited to the information required for those operations, such as the license key and, when applicable, an installation name or license instance identifier.
+Freemius handles TalkNClip checkout and license management. The application exchanges the licensing information needed for activation, validation, and deactivation with Freemius.
 
 Payment and card details are not entered or stored inside TalkNClip. The application does not need your name or email address for normal local license validation. Sensitive license data is protected locally using Windows user-specific protection.
 
 ## Get a license
 
-Public purchase options will be added when TalkNClip is released. There is no final public purchase link yet.
+1. Open **Settings → License**.
+2. Click **Buy TalkNClip**.
+3. The Freemius checkout opens in your default browser.
+4. Complete the purchase.
+5. Copy the license key received after purchase.
+6. Return to TalkNClip and paste it into **License key**.
+7. Click **Activate**.
 
-<!-- When the public checkout is available, replace the paragraph above with a Purchase TalkNClip link to the confirmed checkout URL. -->
+Opening or closing checkout does not activate or change your license. Payment is completed in the browser, outside TalkNClip.
+
+For purchase, license, or account-specific support, contact [talknclip.support@gmail.com](mailto:talknclip.support@gmail.com). Never post your license key in a public GitHub issue.
 
 ## Privacy
 

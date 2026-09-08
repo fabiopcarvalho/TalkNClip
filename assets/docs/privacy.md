@@ -16,13 +16,16 @@ OBS is responsible for recordings and clips, including their audio, storage loca
 | --- | --- |
 | OBS control | Connects to the configured OBS WebSocket server, on `localhost:4455` by default. Advanced settings can change the destination. |
 | Speech model installation | Downloads the selected model after an explicit user action and checks it against the application's recorded SHA-256 checksum. Subsequent speech recognition runs locally. |
-| Licensing | Builds with licensing use the Lemon Squeezy License API for activation, validation, and deactivation. Requests include the license key and, as applicable, an installation name or license instance identifier. |
+| Licensing | TalkNClip exchanges the licensing information needed for activation, periodic validation, and deactivation with Freemius. This communication is separate from microphone capture and voice recognition. |
+| Purchase | Selecting **Buy TalkNClip** opens the Freemius checkout in the default browser. Payment takes place outside the application. |
 
 The application has no telemetry client or automatic support upload. Local speech recognition does not imply that all application features work without internet access: initial license activation requires a connection, and licensed builds perform periodic validation with a limited offline grace period.
 
 ## Licensing privacy
 
-Licensing communication is limited to the information needed for activation, validation, and deactivation, as described above. TalkNClip does not require your name or email address for normal local license validation. Payment and card details are not entered or stored inside the application.
+Microphone audio is not sent to Freemius. Voice recognition runs locally after the selected voice model is installed; activation and periodic license validation require internet access.
+
+Licensing communication is limited to the information needed for activation, validation, and deactivation, as described above. TalkNClip does not require your name or email address for normal local license validation. Payment and card details are not entered or stored inside the application; purchases and license management are handled through Freemius.
 
 For activation, device limits, and offline use, see [TalkNClip licensing](licensing.md).
 

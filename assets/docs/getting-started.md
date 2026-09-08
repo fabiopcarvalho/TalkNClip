@@ -7,9 +7,11 @@ Have the following ready:
 - A Windows x64 PC and a microphone available to Windows desktop applications.
 - OBS Studio with obs-websocket 5.x support. OBS Studio 28 and later include the WebSocket server.
 - A TalkNClip package and its accompanying installation instructions.
-- Internet access to download your speech model and, for builds that require a license, complete initial activation.
+- Internet access to download your speech model, complete initial license activation, and perform periodic license validation.
 
 Follow the installation and licensing instructions supplied with your build, and keep the application package intact. If your package requires the .NET Desktop Runtime, install the version specified in those instructions. The current portable Beta uses the executable name `VoiceObsController.exe`.
+
+Activate your license in **Settings → License** before using licensed recording and clip controls. If you need a key, select **Buy TalkNClip** to open the Freemius checkout in your default browser, complete the purchase, then return with your key and click **Activate**. See the [licensing guide](licensing.md) for the purchase flow and device limit. Do not publish or share your key.
 
 ## 2. Connect OBS Studio
 

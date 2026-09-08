@@ -13,9 +13,9 @@ Start with the [getting started guide](getting-started.md). For a reproducible p
 | A phrase contains unsupported words | Choose words supported by the selected speech model and resolve the validation message before saving. |
 | Voice control is paused | Use Resume voice control in the tray menu. Manual recording controls remain available while paused. |
 | Clips have missing audio | Check OBS audio sources, mixer, recording tracks, and output device. TalkNClip does not configure or mix recording audio. |
-| License activation fails | Check your connection and the build's activation instructions. Record the error message without sharing the license key. |
+| License activation fails | Check your connection and enter the key received after purchase in **Settings → License**. Record the error message without sharing the license key; contact private support below if it persists. |
 | Device limit reached | Deactivate another installation in **Settings → License → Deactivate this computer** before activating this computer. A license supports up to two activated devices. |
-| License verification required | Connect to the internet and try validation again in **Settings → License**. |
+| License verification required | Connect to the internet and select **Settings → License → Check license**. |
 | I want to release an activation slot | Use **Settings → License → Deactivate this computer** while online and wait for confirmation. Uninstalling or deleting local data alone does not release the slot. |
 | I started TalkNClip but can't see it | Check the Windows notification area and hidden tray icons. TalkNClip runs in the tray; starting a second instance does not open another controller. |
 
@@ -37,7 +37,9 @@ When using the support-package feature, review the preview and the resulting loc
 
 ## Sensitive reports
 
-For license, purchase, or account-specific assistance, contact [talknclip.support@gmail.com](mailto:talknclip.support@gmail.com). Support requests in English or Portuguese are welcome.
+TalkNClip uses Freemius for purchases and license management. For license, purchase, or account-specific assistance, contact [talknclip.support@gmail.com](mailto:talknclip.support@gmail.com). Support requests in English or Portuguese are welcome. Use GitHub Issues for reproducible bugs, feature suggestions, and general problems that do not expose private information.
+
+Never post your license key in a public GitHub issue. Nunca publique sua chave de licença em uma issue pública do GitHub.
 
 Do not post license keys, OBS passwords, payment details, private recordings, or security exploit details in a public issue. For a security issue, use private vulnerability reporting if this repository offers it, or contact the support email above privately.
 
