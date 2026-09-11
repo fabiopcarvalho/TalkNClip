@@ -36,7 +36,7 @@ TalkNClip uses the audio mix configured in OBS. Its microphone selection is for 
 
 1. Follow the first-run setup or open **Settings**.
 2. Select your microphone explicitly.
-3. Choose **Portuguese (Brazil)** or **English (United States)** as the recognition language. The interface language is a separate preference.
+3. Choose **English (United States)**, **Português (Brasil)**, **Español**, **Deutsch**, **Italiano**, or **Français** as the recognition language. The interface language supports the same six languages and is a separate preference; changing one does not change the other.
 4. Download the offered speech model if it is not installed. Recognition works locally after installation.
 5. Open **Voice Commands** and choose phrases for saving a clip, starting recording, and stopping recording. Enter additional phrases on separate lines.
 6. Resolve any unsupported-word or conflicting-phrase messages, then save.
@@ -48,6 +48,8 @@ Use the phrases displayed in your selected language profile. Speak the complete 
 Open **Voice Test** or use **Test** beside a command. Stay quiet during the initial noise calibration, then say the phrase when the test indicates it is ready.
 
 Voice Test does not execute OBS actions by default. Check the recognized phrase and result. The optional five-attempt reliability test also runs without OBS actions.
+
+Settings displays the selected model's published WER as technical information. A lower value means fewer errors only in that benchmark. Different languages use different general-transcription datasets, so their WER values are not perfectly comparable and do not guarantee TalkNClip command accuracy. Voice Test is the appropriate way to evaluate your own voice, microphone, and phrases before purchasing.
 
 In **Show voice detection**, the top indicator represents microphone signal. A command indicator represents a recognized configured phrase. Confidence and cooldown checks still determine whether an action can be sent to OBS.
 

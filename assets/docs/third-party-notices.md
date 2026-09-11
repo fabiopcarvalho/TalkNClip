@@ -11,6 +11,10 @@ TalkNClip uses third-party software for local speech recognition, microphone acc
 | System.Numerics.Tensors | 9.0.0 | MIT | Transitive application dependency. Copyright Microsoft Corporation. |
 | Vosk Small Portuguese model | 0.3 | Apache-2.0, as recorded in the model manifest | Portuguese speech recognition; downloaded separately. |
 | Vosk Small English US model | 0.15 | Apache-2.0, as recorded in the model manifest | English speech recognition; downloaded separately. |
+| Vosk Small Spanish model | 0.42 | Apache-2.0, as recorded in the model manifest | Spanish speech recognition; downloaded separately. |
+| Vosk Small German model | 0.15 | Apache-2.0, as recorded in the model manifest | German speech recognition; downloaded separately. |
+| Vosk Small Italian model | 0.22 | Apache-2.0, as recorded in the model manifest | Italian speech recognition; downloaded separately. |
+| Vosk Small French model | 0.22 | Apache-2.0, as recorded in the model manifest | French speech recognition; downloaded separately. |
 
 OBS Studio is the separately installed recording application that TalkNClip controls through OBS WebSocket.
 
