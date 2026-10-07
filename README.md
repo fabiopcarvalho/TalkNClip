@@ -111,6 +111,6 @@ See the [support guide](assets/docs/support.md) for troubleshooting and how to r
 
 This repository hosts the public documentation, screenshots, and issue templates for TalkNClip. Application source code is maintained separately.
 
-See [third-party notices](assets/docs/third-party-notices.md) for component acknowledgments and the status of distribution notices.
+See [third-party notices](assets/docs/third-party-notices.md) for the verified package inventory, component acknowledgments, license materials, and Corresponding Source access.
 
 Created by Fabio Carvalho.

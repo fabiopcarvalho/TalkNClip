@@ -9,7 +9,7 @@ Have the following ready:
 - A TalkNClip package and its accompanying installation instructions.
 - Internet access to download your speech model, complete initial license activation, and perform periodic license validation.
 
-Follow the installation and licensing instructions supplied with your build, and keep the application package intact. If your package requires the .NET Desktop Runtime, install the version specified in those instructions. The current portable Beta uses the executable name `VoiceObsController.exe`.
+Follow the installation and licensing instructions supplied with your build, and keep the application package intact. Microsoft Store package `1.0.0.1` is self-contained and includes Microsoft .NET and Windows Desktop Runtime 10.0.12, so it does not require a separate .NET Desktop Runtime installation. Other distribution formats must state their own runtime requirements. The current portable Beta uses the executable name `VoiceObsController.exe`. See the [third-party notices](third-party-notices.md) for the verified package inventory and included license materials.
 
 Activate your license in **Settings → License** before using licensed recording and clip controls. If you need a key, select **Buy TalkNClip** to open the Freemius checkout in your default browser, complete the purchase, then return with your key and click **Activate**. See the [licensing guide](licensing.md) for the purchase flow and device limit. Do not publish or share your key.
 
