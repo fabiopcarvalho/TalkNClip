@@ -29,10 +29,11 @@ The package reviewed for this page is:
 
 | Package property | Verified value |
 | --- | --- |
-| Microsoft Store package version | `1.0.0.1` |
+| Microsoft Store package version | `1.0.1.0` |
 | Architecture | Windows x64 |
 | Deployment | Self-contained |
-| MSIX SHA-256 | `eeaf4d0734f5511aaec1abcba2f45361ae5db59594d0e8b49da6625620895544` |
+| MSIX size | 99,123,525 bytes |
+| MSIX SHA-256 | `97a027021f3927da30d3d658ab973f332c0a00ef2ed9a27e04025dd84a08e76e` |
 | Audited contents | 535 files; 239,887,368 uncompressed bytes |
 
 The reviewed Microsoft Store package is self-contained and includes .NET
@@ -42,7 +43,7 @@ third-party notice files.
 ## Distribution notice status
 
 The licensing and notice review is complete for Microsoft Store package
-`1.0.0.1`. The exact native files were identified by SHA-256 and byte-for-byte
+`1.0.1.0`. The exact native files were identified by SHA-256 and byte-for-byte
 comparison with official historical Debian packages:
 
 | Distributed file | Verified origin | SHA-256 |

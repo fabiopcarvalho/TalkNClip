@@ -1,6 +1,6 @@
 # GCC runtime Corresponding Source
 
-Microsoft Store package `1.0.0.1` distributes the following independent object-code libraries received through Vosk 0.3.38:
+Microsoft Store package `1.0.1.0` distributes the following independent object-code libraries received through Vosk 0.3.38:
 
 | Distributed file | SHA-256 |
 | --- | --- |
